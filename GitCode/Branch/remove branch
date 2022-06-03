@@ -1,0 +1,20 @@
+# ローカルブランチの削除
+$ git branch -d [branchname]
+
+# マージ済みブランチの一覧
+$ git branch --merged                    
+
+# マージ済みブランチの削除
+$ git branch -d                          
+
+# 強制的なブランチの削除
+$ git branch -D                          
+
+# リモートブランチの最新状態を取得（リモートブランチの削除も同期）
+$ git fetch -p                           
+
+ # マージ済みリモートブランチの一覧
+$ git for-each-ref refs/remotes --merged
+
+# リモートブランチの削除
+$ git push --delete origin [branchname]  

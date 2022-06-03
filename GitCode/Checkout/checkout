@@ -1,0 +1,13 @@
+# mainBに切り替えてファイル作成またはファイル修正
+git checkout mainB
+
+# ファイルをインデックスに追加し、コミットする
+git add README_B.md
+git commit -m "README create in BranchB.md"    
+
+# mainBに対してpushする
+git push origin mainB
+
+# 他開発者が編集可能にするためにpullする
+git checkout mainB
+git pull 

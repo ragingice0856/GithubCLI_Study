@@ -1,0 +1,13 @@
+# mainBをmainAにマージ
+
+# 取り込みたい方にチェックアウトしておく
+git checkout mainA  
+
+# mainBの修正内容をマージする
+git merge mainB    
+
+# マージされたmainAをpush
+git push origin mainA  
+
+# mainBのファイルがmainAに反映されてたらOK
+ls -l 

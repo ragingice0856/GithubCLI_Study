@@ -1,0 +1,3 @@
+$ git remote rm origin #リモートリポジトリの削除
+$ git remote add origin git@github.com:ragingice0856/GithubCLI_Study.git　#リモートリポジトリ追加
+$ git push -u origin master
