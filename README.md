@@ -1,1 +1,1 @@
-# GithubCLI_Study
+# A project created for study
