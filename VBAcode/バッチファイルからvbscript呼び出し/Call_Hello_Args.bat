@@ -1,0 +1,1 @@
+cscript Hello.vbs
