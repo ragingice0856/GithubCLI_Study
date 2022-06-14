@@ -1,0 +1,7 @@
+discription
+
+test1.txt test2.txt CommandTest fc
+
+ABCDEFG12345
+
+12345ABCDEFG
