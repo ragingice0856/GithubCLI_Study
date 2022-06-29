@@ -1,0 +1,98 @@
+<!--　HTMLの基本構造　-->
+<html>
+<head>
+<title>タイトル</title>
+</head>
+
+<body bgcolor=white background="">
+
+
+<!-- hタグ -->
+<h1>Hello World</h1>
+<h2>Homepage</h2>
+<h3>HTMLpage</h3>
+    
+
+<!--　水平線いろいろ　-->
+<hr width=300 size=8>
+<hr width=50% size=10 align=left>
+<hr width=80% size=10 align=right noshade>
+
+
+<!--　divタグ　-->
+<div align=left>テキストを左寄せ [align=left]</div>
+<div align=center>テキストを中央寄せ [align=center]</div>
+<div align=right>テキストを右寄せ [align=right]</div>
+
+
+<!--　divと違って空行が１行挿入される　-->
+<p align=left>テキストを左寄せ</p>
+<p align=center>テキストを中央寄せ</p>
+<p align=right>テキストを右寄せ</p>
+
+<!--　番号なしリスト　-->
+<ul>
+    <li>水
+    <li>お茶
+    <li>ジュース
+  </ul>
+
+<!--　番号付きリスト　-->
+
+  <ol>
+    <li>赤
+    <li>青
+    <li>白
+  </ol>
+  
+
+  <!--複雑なリスト-->
+  <ul type=square>
+    <li>飲み物
+    <ol type=A>
+      <li>水
+      <li>お茶
+      <li>ジュース
+    </ol>
+    <li>色
+    <ol type=I>
+      <li>赤
+      <li>青
+      <li>白
+    </ol>
+  </ul>
+  
+
+<!--　<dt> のあとに語句，<dd> のあとに解説を記述　-->
+    <dl>
+      <dt>ＣＰＵ
+      <dd>Central Processor Unit の略。中央演算処理装置。
+      <dt>メモリー
+      <dd>半導体記憶装置。データを一時格納しておくために使う。
+    </dl>
+
+
+<!--　複数行に渡る設定もできる　-->
+    <center>
+    文字列をセンタリング<p>
+    広範囲にセンタリングできます<br>
+    </center>
+
+
+<!--　整形済みテキスト　-->
+    <pre>
+        整形済みテキストを使うと
+            このように
+            書いた通りに
+                表示される。
+        </pre>
+
+        <blockquote>
+            ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+            BLOCKQUOTE を使うとこのように，テキストの左右がインデントされる。
+            ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+            </blockquote>
+
+</body>
+</html>
+
