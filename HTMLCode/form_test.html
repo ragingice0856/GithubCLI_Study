@@ -1,0 +1,25 @@
+<form action="hoge.php">
+    <div>
+      <p class="req">氏名</p>
+      <input type="text" name="text">
+    </div>
+    <div>
+      <p class="req">メールアドレス</p>
+      <input type="text" name="email">
+    </div>
+    <div>
+      <p>電話番号</p>
+      <input type="text" name="tel">
+    </div>
+    <div>
+      <p>弊社を何でお知りになりましたか？</p>
+        <ul>
+          <li><label><input type="checkbox" value="c_official">公式ウェブサイト</label></li>
+          <li><label><input type="checkbox" value="c_blog">ブログ</label></li>
+          <li><label><input type="checkbox" value="c_friend">知人の紹介</label></li>
+          <li><label><input type="checkbox" value="c_other">その他</label><br />
+          <input type="text" name="otherComment" id="otherComment"></li>
+        </ul>
+    </div>
+    <button type="submit">送信する</button>
+  </form>
